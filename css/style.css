@@ -7,6 +7,7 @@
 .wd{
     width: 100%; 
     height: 750px; 
+    margin-bottom: 270px;
     /* background-color: green; */
     position: relative;
     background-position: center;
@@ -130,8 +131,8 @@
 }
 
 .bt{
-    width: 230px;
-    height: 58px;
+    width: 200px;
+    height: 55px;
     float: left;
     color: white;
     border-radius: 33px;
@@ -155,7 +156,7 @@
 }
 
 .button_n span{
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .bt:hover{
@@ -185,7 +186,7 @@
     float: left;
     background-color: white;
     position: absolute;
-    bottom: -150px;
+    bottom: -130px;
     border-left: 0.5px solid gray;
     box-shadow: 4px 5px 5px rgb(210, 210, 210);
 }
@@ -224,7 +225,7 @@
     color: orange;
 }
 
-.icon_n p{
+.icon_n p , .paa{
     font-size: 26px;
 }
 
@@ -233,13 +234,102 @@
     font-family: Georgia, serif;
 }
 
+.gray{
+    height: 390px;
+    background-color: #f4f4f4;
+    margin: 30px 20px 5px 0;
+    padding: 48px 24px 25px 24px;
+    box-sizing: border-box;
+}
+
+.imgg{
+    width: 100%;
+    height: 140px;
+    /* background: #f4f4; */
+    margin: 35px 0 60px 0;
+    object-fit: contain;
+    object-position: center;
+}
+
+.iphone{
+    height: 180px;
+    margin: 18px 0 37px 0;
+}
+
+.square{
+    width: 100%;
+    height: 320px;
+    background-color: #3fdfe4;
+    margin: 120px 50px 80px 0;
+    position: relative;
+}
+
+.backk{
+    background-color: #ffc627;
+}
+
+.endstd{
+    width: 100%;
+    height: 200px;
+    /* background: #171212; */
+    margin: 70px 0px 0 40px;
+    z-index: 1;
+    position: absolute;
+}
+
+.endstd p , .endstd a{
+    font-size: 18px;
+    color: white;
+}
+
+.endstd span{
+    color: white;
+    font-size: 42px;
+    line-height: 50px;
+    font-family: sans-serif;
+}
+
+.down{
+    margin-top: 100px;
+}
+
+.phhooto{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    object-fit: contain;
+    object-position: center;
+}
+
 @media screen and (max-width: 768px) {
     .margin_right{
         display: none;
     }
 
+    .mgbtm{
+        margin-bottom: 35px;
+    }
+
+    .phhooto{
+        width: 130%;
+        margin-top: 10px;
+    }
+
+    .fonnt span{
+        font-size: 50px;
+    }
+
+    .endstd{
+        width: 160%;
+    }
+
+    .mg{
+        margin-top: 0;
+    }
+
     .wd{
-        height: 1580px;
+        height: 1650px;
+        margin-bottom: 480px;
     }
     
     .border0{
@@ -292,6 +382,7 @@
 
     .collapse ul li a{
         color: gray!important;
+        line-height: 35px;
     }
 
     .words_n{
@@ -300,6 +391,25 @@
 
     .sm, .percent, .word_n{
         text-align: center;
+    }
+
+    .paa{
+        font-size: 31px;
+    }
+
+    .gray{
+        height: 360px;
+        padding: 25px 24px 10px 24px;
+    }
+
+    .imgg{
+        height: 170px;
+        margin: 15px 0 40px 0;
+    }
+
+    .iphone{
+        height: 220px;
+        margin: 5px 0;
     }
 
     .percent{
@@ -326,6 +436,10 @@
         margin-top: 20px;
     }
 
+    .pad{
+        padding: 0 80px 0 90px;
+    }
+
     .word_n .mm span{
         font-size: 36px;
     }
@@ -344,7 +458,7 @@
 
     .job{
         text-align: center;
-        bottom: -400px;
+        bottom: -300px;
         left: 60px;
         height: 750px;
     }
