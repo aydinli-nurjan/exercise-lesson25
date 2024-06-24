@@ -222,11 +222,16 @@
     width: 50px;
     height: inherit;
     float: left;
+    float: left;
     color: orange;
 }
 
 .icon_n p , .paa{
     font-size: 26px;
+}
+
+.pa{
+    float: left;
 }
 
 .icon_n span{
@@ -238,6 +243,7 @@
     height: 390px;
     background-color: #f4f4f4;
     margin: 30px 20px 5px 0;
+    float: left;
     padding: 48px 24px 25px 24px;
     box-sizing: border-box;
 }
@@ -247,6 +253,7 @@
     height: 140px;
     /* background: #f4f4; */
     margin: 35px 0 60px 0;
+    float: left;
     object-fit: contain;
     object-position: center;
 }
@@ -259,6 +266,7 @@
 .square{
     width: 100%;
     height: 320px;
+    float: left;
     background-color: #3fdfe4;
     margin: 120px 50px 80px 0;
     position: relative;
@@ -271,6 +279,7 @@
 .endstd{
     width: 100%;
     height: 200px;
+    float: left;
     /* background: #171212; */
     margin: 70px 0px 0 40px;
     z-index: 1;
@@ -299,6 +308,177 @@
     margin-top: 20px;
     object-fit: contain;
     object-position: center;
+}
+
+.mnwmn{
+    width: 100%;
+    height: 40px;
+    float: left;
+    /* background-color: darkcyan; */
+}
+
+.words{
+    width: 350px;
+    height: 40px;
+    /* background-color: black; */
+}
+
+.words ul {
+    padding: 0px;
+}
+
+.words ul li {
+    float: left;
+    list-style-type: none;
+}
+
+.words ul li:nth-child(1) a{
+    color: #2a7bf4;
+}
+
+.words ul li a{
+    margin: 10px;
+    padding: 10px;
+    /* background: antiquewhite; */
+    text-decoration: none;
+    font-size: 15px;
+    color: #818080;
+}
+
+.words ul li a:hover{
+    color: #64a1fd;
+    transition: 0.4s;
+}
+
+.leftright{
+    width: 100%;
+    height: 40px;
+    float: right;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icon_nnn{
+    width: 108px;
+    height: 40px;
+    /* background-color: #ffc627; */
+}
+
+.ic{
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    float: left;
+    border-radius: 50%;
+    border: 1px solid #868080;
+    color: #868080;
+}
+
+.ic:hover{
+    border: 1px solid black;
+    color: black;
+}
+
+.con{
+    width: 100%;
+    height: 2px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    background-color: #e1dfdf;
+}
+
+.clr{
+    border: 1px solid #bebbbb;
+    color: #bebbbb;
+    margin-right: 12px;
+}
+
+.white{
+    width: 100%;
+    height: 350px;
+    /* background-color: #868080; */
+    margin: 0 10px 70px 0;
+    padding: 12px 25px 20px 25px;
+    box-sizing: border-box;
+}
+
+.img_n_n{
+    width: 100%;
+    height: 200px;
+    /* background-color: #64a1fd; */
+    margin-bottom: 40px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.wrds{
+    margin-top: 10px;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    /* background-color: bisque; */
+}
+
+.bck{
+    background-color: #dc4362;
+}
+
+.clnr{
+    background-color: #88513a;
+}
+
+.nn{
+    background-color: #fb8304;
+
+}
+
+.mgrg{
+    margin-right: 5px;
+}
+
+.ds{
+    display: flex;
+    justify-content: end;
+}
+
+.kv{
+    width: 100%;
+    height: 260px;
+    float: left;
+    /* background-color: green; */
+    padding: 2px 10px 0 0px;
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+
+.kvv{
+    width: 100%;
+    height: 160px;
+    /* background-color: greenyellow; */
+}
+
+.kvv p , .kvv a{
+    font-size: 18px;
+    color: white;
+}
+
+.kvv span{
+    color: white;
+    font-size: 42px;
+    line-height: 50px;
+    font-family: sans-serif;
+}
+
+.phot{
+    width: 100%;
+    height: 250px;
+    /* background-color: #64a1fd; */
+    object-fit: contain;
+    object-position: center;
+    padding-left: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -357,6 +537,47 @@
         padding-top: 24px;
     }
 
+    .leftright{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .mgrg{
+        margin-right: 0px;
+        margin-bottom: -55px!important;
+    }
+
+    .padd{
+        padding: 50px 80px 0 86px;
+    }
+
+    .none{
+        display: none;
+    }
+
+    .nn{
+        width: 97%;
+    }
+
+    .white{
+        padding: 0;
+        margin-bottom: 25px;
+    }
+
+    .img_n_n{
+        margin-bottom: 18px;
+    }
+
+    .pa{
+        margin-bottom: 40px;
+    }
+
+    .con{
+        margin-top: 190px;
+    }
+
     .bord{
         color: gray;
     }
@@ -377,6 +598,9 @@
 
     .navbar-inverse .bord:hover{
         background-color: #fff;
+    }
+
+    .navbar-inverse .bord:hover i:nth-child(3){
         color: black;
     }
 
