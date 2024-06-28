@@ -13,7 +13,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/002/458/513/non_2x/gradient-blue-background-free-vector.jpg");
+    background-image: url("https://media.istockphoto.com/id/1372399516/vector/dark-blue-defocused-blurred-motion-gradient-soft-abstract-background-vector.jpg?s=612x612&w=0&k=20&c=ulLw1_awuztJ1ujhXSBAjQpI4L5PHuF-RE01zlAQHZ0=");
 }
 
 .bord{
@@ -481,6 +481,59 @@
     padding-left: 0;
 }
 
+.backcolor{
+    background-color: #081d5a;
+    margin-top: 100px;
+    height: 440px;
+}
+
+.pad{
+    padding: 50px 0 30px 0;
+    box-sizing: border-box;
+}
+
+.nmm{
+    color: white;
+    font-size: 27px;
+    font-family: sans-serif;
+}
+
+.hover{
+    width: 180px;
+}
+
+.icon_3{
+    color: #2a7bf4;
+    margin-right: 15px;
+}
+
+.conn{
+    width: 100%;
+    height: 1.5px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    background-color: #6f6e6e;
+}
+
+.nm{
+    width: 100%;
+    height: 50px;
+    margin-right: 8px!important;
+    border-radius: 6px 0 0 6px;
+}
+
+.hover a i:hover{
+    color: rgb(40, 73, 181);
+}
+
+.nnn{
+    width: 35%;
+    background-color: #1d77ff;
+    color: #fff;
+    border-radius: 0 6px 6px 0;
+}
+
 @media screen and (max-width: 768px) {
     .margin_right{
         display: none;
@@ -522,6 +575,27 @@
 
     .marg{
         margin-top: 15px;
+    }
+
+    .icon_nn{
+        width: 100%;
+    }
+
+    .conn{
+        background-color: transparent;
+        margin-top: 140px;
+    }
+
+    .mrg{
+        margin-top: 20px;
+    }
+
+    .bottom{
+        margin-bottom: 20px;
+    }
+
+    .backcolor{
+        height: 1200px;
     }
 
     .m{
@@ -622,6 +696,7 @@
     }
 
     .gray{
+        width: 95%;
         height: 360px;
         padding: 25px 24px 10px 24px;
     }
