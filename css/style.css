@@ -187,7 +187,7 @@
     background-color: white;
     position: absolute;
     bottom: -130px;
-    box-shadow: 0px 3px 14px rgb(210, 210, 210);
+    box-shadow: 0px 2px 6px rgb(186, 186, 186);
 }
 
 .center_r{
@@ -238,13 +238,40 @@
     font-family: Georgia, serif;
 }
 
+.card{
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
 .gray{
     width: 100%;
     height: 390px;
     background-color: #f4f4f4;
+    position: relative;
     margin: 15px 0;
     float: left;
     padding: 48px 24px 25px 24px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+}
+
+.card:hover{
+    transform: rotateY(180deg);
+}
+
+.reverse{
+    position: relative;
+    width: 100%;
+    height: 390px;
+    margin: 15px 0;
+    background-color: #297e29; 
+    color: white;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    padding: 120px 0px 0 25%;
     box-sizing: border-box;
 }
 
@@ -488,7 +515,7 @@
 }
 
 .backcolor{
-    background-color: #081d5a;
+    background-color: #252b42;
     margin-top: 100px;
     height: 440px;
 }
@@ -502,6 +529,7 @@
     color: white;
     font-size: 27px;
     font-family: sans-serif;
+    margin-top: 22px;
 }
 
 .hover{
@@ -547,7 +575,7 @@
     }
 
     .mgbtm{
-        margin-bottom: 35px;
+        margin-bottom: 25px;
     }
 
     .phhooto{
@@ -627,7 +655,7 @@
 
     .mgrg{
         margin-right: 0px;
-        margin-bottom: -55px!important;
+        margin-bottom: -62px!important;
     }
 
     .padd{
@@ -698,11 +726,11 @@
     }
 
     .paa{
-        font-size: 31px;
+        font-size: 27px;
     }
 
     .gray{
-        width: 95%;
+        width: 100%;
         height: 360px;
         padding: 25px 24px 10px 24px;
     }
@@ -770,6 +798,14 @@
         bottom: -300px;
         left: 60px;
         height: 750px;
+    }
+
+    .reverse{
+        height: 360px;
+        font-size: 28px;
+        padding: 80px 0 0 125px;
+        box-sizing: border-box;
+        
     }
 }
 
