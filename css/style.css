@@ -1,12 +1,12 @@
-.border0{
+.border0 {
     border-radius: 0;
     background-color: transparent;
     border-color: transparent;
 }
 
-.wd{
-    width: 100%; 
-    height: 750px; 
+.wd {
+    width: 100%;
+    height: 750px;
     margin-bottom: 270px;
     /* background-color: green; */
     background-position: center;
@@ -15,50 +15,50 @@
     background-image: url("https://media.istockphoto.com/id/1372399516/vector/dark-blue-defocused-blurred-motion-gradient-soft-abstract-background-vector.jpg?s=612x612&w=0&k=20&c=ulLw1_awuztJ1ujhXSBAjQpI4L5PHuF-RE01zlAQHZ0=");
 }
 
-.bord{
+.bord {
     border-color: none;
     color: white;
 }
 
-.font_size{
+.font_size {
     font-size: 26px;
-    color: white!important;
+    color: white !important;
     font-family: sans-serif;
 }
 
-.tr{
+.tr {
     transition: 0.5s;
 }
 
-.collapse ul li a{
-    color: white!important;
+.collapse ul li a {
+    color: white !important;
 }
 
-.collapse ul li a:hover{
-    color: black!important;
+.collapse ul li a:hover {
+    color: black !important;
 }
 
-.font_size:hover{
-    color: gray!important;
+.font_size:hover {
+    color: gray !important;
 }
 
-.fonsize{
+.fonsize {
     font-size: 20px;
 }
 
-.margin_left{
+.margin_left {
     margin-left: 180px;
 }
 
-.pad_left{
+.pad_left {
     padding-left: 0;
 }
 
-.mrglft{
+.mrglft {
     margin-left: 14px;
 }
 
-.btn{
+.btn {
     width: 180px;
     height: 34px;
     display: flex;
@@ -69,11 +69,11 @@
     background-color: rgb(0, 149, 255);
 }
 
-.btn:hover{
-    background-color: rgb(7, 110, 184)!important;
+.btn:hover {
+    background-color: rgb(7, 110, 184) !important;
 }
 
-.words_n{
+.words_n {
     width: 100%;
     height: 400px;
     /* background-color: bisque; */
@@ -81,7 +81,7 @@
     margin-top: 150px;
 }
 
-.sm{
+.sm {
     width: 100%;
     height: 30px;
     float: left;
@@ -89,7 +89,7 @@
     text-align: start;
 }
 
-.percent{
+.percent {
     width: 100%;
     height: 80px;
     float: left;
@@ -97,18 +97,18 @@
     text-align: start;
 }
 
-.words_n .sm span{
+.words_n .sm span {
     font-size: 22px;
     color: white;
 }
 
-.percent span{
+.percent span {
     font-size: 78px;
     font-family: sans-serif;
     color: white;
 }
 
-.word_n{
+.word_n {
     width: 90%;
     height: 100px;
     float: left;
@@ -119,17 +119,17 @@
     margin-top: 30px;
 }
 
-.word_n .mm span{
+.word_n .mm span {
     font-size: 30px;
 }
 
-.disFlex{
-    display: flex!important;
-    justify-content: center!important;
-    align-items: center!important;
+.disFlex {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
-.bt{
+.bt {
     width: 200px;
     height: 55px;
     float: left;
@@ -142,34 +142,34 @@
     margin-top: 15px;
 }
 
-.n{
+.n {
     width: 100%;
     height: 63px;
     /* background-color: aqua; */
     float: left;
 }
 
-.button_n{
+.button_n {
     text-decoration: none;
     color: white;
 }
 
-.button_n span{
+.button_n span {
     font-size: 18px;
 }
 
-.bt:hover{
+.bt:hover {
     background-color: #174589;
 }
 
-.photo{
+.photo {
     width: 100%;
     height: 500px;
     float: right;
     /* background-color: aqua; */
 }
 
-.ph{
+.ph {
     width: 70%;
     height: 430px;
     margin-top: 70px;
@@ -179,7 +179,7 @@
     object-position: center;
 }
 
-.job{
+.job {
     width: 100%;
     height: 250px;
     float: left;
@@ -188,7 +188,7 @@
     box-shadow: 0px 4px 4px #eeeded;
 }
 
-.center_r{
+.center_r {
     width: 100%;
     height: 250px;
     float: left;
@@ -197,7 +197,7 @@
     box-sizing: border-box;
 }
 
-.icon_n{
+.icon_n {
     width: 100%;
     height: 245px;
     float: left;
@@ -207,7 +207,7 @@
     text-align: center;
 }
 
-.icn{
+.icn {
     width: 100%;
     height: 90px;
     float: left;
@@ -215,7 +215,7 @@
     margin-top: 30px;
 }
 
-.back{
+.back {
     width: 50px;
     height: inherit;
     float: left;
@@ -223,25 +223,26 @@
     color: orange;
 }
 
-.icon_n p , .paa{
+.icon_n p,
+.paa {
     font-size: 26px;
 }
 
-.pa{
+.pa {
     float: left;
 }
 
-.icon_n span{
+.icon_n span {
     font-size: 17px;
     font-family: Georgia, serif;
 }
 
-.card{
+.card {
     transform-style: preserve-3d;
     transition: all 0.5s ease;
 }
 
-.gray{
+.gray {
     width: 100%;
     height: 390px;
     background-color: #f4f4f4;
@@ -253,16 +254,16 @@
     backface-visibility: hidden;
 }
 
-.card:hover{
+.card:hover {
     transform: rotateY(180deg);
 }
 
-.reverse{
+.reverse {
     position: relative;
     width: 100%;
     height: 390px;
     margin: 15px 0;
-    background-color: #297e29; 
+    background-color: #297e29;
     color: white;
     backface-visibility: hidden;
     transform: rotateY(180deg);
@@ -273,7 +274,7 @@
     box-sizing: border-box;
 }
 
-.imgg{
+.imgg {
     width: 100%;
     height: 140px;
     /* background: #f4f4; */
@@ -283,12 +284,12 @@
     object-position: center;
 }
 
-.iphone{
+.iphone {
     height: 180px;
     margin: 18px 0 37px 0;
 }
 
-.square{
+.square {
     width: 100%;
     height: 320px;
     float: left;
@@ -297,11 +298,11 @@
     position: relative;
 }
 
-.backk{
+.backk {
     background-color: #ffc627;
 }
 
-.endstd{
+.endstd {
     width: 100%;
     height: 200px;
     float: left;
@@ -311,23 +312,24 @@
     position: absolute;
 }
 
-.endstd p , .endstd a{
+.endstd p,
+.endstd a {
     font-size: 18px;
     color: white;
 }
 
-.endstd span{
+.endstd span {
     color: white;
     font-size: 42px;
     line-height: 50px;
     font-family: sans-serif;
 }
 
-.down{
+.down {
     margin-top: 100px;
 }
 
-.phhooto{
+.phhooto {
     width: 100%;
     height: 300px;
     margin-top: 20px;
@@ -335,14 +337,14 @@
     object-position: center;
 }
 
-.mnwmn{
+.mnwmn {
     width: 100%;
     height: 40px;
     float: left;
     /* background-color: darkcyan; */
 }
 
-.words{
+.words {
     width: 350px;
     height: 40px;
     /* background-color: black; */
@@ -357,11 +359,11 @@
     list-style-type: none;
 }
 
-.words ul li:nth-child(1) a{
+.words ul li:nth-child(1) a {
     color: #2a7bf4;
 }
 
-.words ul li a{
+.words ul li a {
     margin: 10px;
     padding: 10px;
     /* background: antiquewhite; */
@@ -370,12 +372,12 @@
     color: #818080;
 }
 
-.words ul li a:hover{
+.words ul li a:hover {
     color: #64a1fd;
     transition: 0.4s;
 }
 
-.leftright{
+.leftright {
     width: 100%;
     height: 40px;
     float: right;
@@ -385,13 +387,13 @@
     align-items: center;
 }
 
-.icon_nnn{
+.icon_nnn {
     width: 108px;
     height: 40px;
     /* background-color: #ffc627; */
 }
 
-.ic{
+.ic {
     width: 45px;
     height: 45px;
     background-color: transparent;
@@ -401,12 +403,12 @@
     color: #868080;
 }
 
-.ic:hover{
+.ic:hover {
     border: 1px solid black;
     color: black;
 }
 
-.con{
+.con {
     width: 100%;
     height: 2px;
     border-radius: 10px;
@@ -415,13 +417,13 @@
     background-color: #e1dfdf;
 }
 
-.clr{
+.clr {
     border: 1px solid #bebbbb;
     color: #bebbbb;
     margin-right: 12px;
 }
 
-.white{
+.white {
     width: 100%;
     height: 350px;
     /* background-color: #868080; */
@@ -430,7 +432,7 @@
     box-sizing: border-box;
 }
 
-.img_n_n{
+.img_n_n {
     width: 100%;
     height: 200px;
     /* background-color: #64a1fd; */
@@ -440,12 +442,12 @@
     transition: 0.5s;
 }
 
-.img_n_n:hover{
+.img_n_n:hover {
     height: 180px;
     transform: scale(1.1);
 }
 
-.wrds{
+.wrds {
     margin-top: 10px;
     width: 100%;
     height: 120px;
@@ -453,28 +455,28 @@
     /* background-color: bisque; */
 }
 
-.bck{
+.bck {
     background-color: #E93862;
 }
 
-.clnr{
+.clnr {
     background-color: #904E34;
 }
 
-.nn{
+.nn {
     background-color: #FF7A00;
 }
 
-.mgrg{
+.mgrg {
     margin-right: 5px;
 }
 
-.ds{
+.ds {
     display: flex;
     justify-content: end;
 }
 
-.kv{
+.kv {
     width: 100%;
     height: 260px;
     float: left;
@@ -484,25 +486,26 @@
     margin-top: 70px;
 }
 
-.kvv{
+.kvv {
     width: 100%;
     height: 160px;
     /* background-color: greenyellow; */
 }
 
-.kvv p , .kvv a{
+.kvv p,
+.kvv a {
     font-size: 18px;
     color: white;
 }
 
-.kvv span{
+.kvv span {
     color: white;
     font-size: 42px;
     line-height: 50px;
     font-family: sans-serif;
 }
 
-.phot{
+.phot {
     width: 100%;
     height: 250px;
     /* background-color: #64a1fd; */
@@ -511,34 +514,34 @@
     padding-left: 0;
 }
 
-.backcolor{
+.backcolor {
     background-color: #252b42;
     margin-top: 100px;
     height: 440px;
 }
 
-.pad{
+.pad {
     padding: 50px 0 10px 0;
     box-sizing: border-box;
 }
 
-.nmm{
+.nmm {
     color: white;
     font-size: 27px;
     font-family: sans-serif;
     margin-top: 22px;
 }
 
-.hover{
+.hover {
     width: 180px;
 }
 
-.icon_3{
+.icon_3 {
     color: #2a7bf4;
     margin-right: 15px;
 }
 
-.conn{
+.conn {
     width: 100%;
     height: 1.5px;
     border-radius: 10px;
@@ -547,271 +550,293 @@
     background-color: #6f6e6e;
 }
 
-.nm{
+.nm {
     width: 100%;
     height: 50px;
-    margin-right: 8px!important;
+    margin-right: 8px !important;
     padding-left: 10px;
     border-radius: 6px 0 0 6px;
 }
 
-.hover a i:hover{
+.hover a i:hover {
     color: #2849b5;
 }
 
-.nnn{
+.nnn {
     width: 35%;
     background-color: #1d77ff;
     color: #fff;
     border-radius: 0 6px 6px 0;
 }
 
+.go-top {
+    width: 50px;
+    height: 55px;
+    position: fixed;
+    right: 40px;
+    top: 88%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: none;
+    font-size: 0px;
+    /* background-color: black; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn.iconscout.com/icon/premium/png-256-thumb/up-button-3215227-2672310.png');
+}
+.go-top--show {
+    display: block;
+}
+
 @media screen and (max-width: 768px) {
-    .margin_right{
+    .margin_right {
         display: none;
     }
 
-    .mgbtm{
+    .mgbtm {
         margin-bottom: 25px;
     }
 
-    .phhooto{
+    .phhooto {
         width: 130%;
         margin-top: 10px;
     }
 
-    .fonnt span{
+    .fonnt span {
         font-size: 50px;
     }
 
-    .endstd{
+    .endstd {
         width: 160%;
     }
 
-    .mg{
+    .mg {
         margin-top: 0;
     }
 
-    .wd{
+    .wd {
         height: 1650px;
         margin-bottom: 480px;
     }
-    
-    .border0{
+
+    .border0 {
         background-color: white;
     }
 
-    .fntsize{
+    .fntsize {
         font-size: 25px;
     }
 
-    .marg{
+    .marg {
         margin-top: 15px;
     }
 
-    .photo{
+    .photo {
         margin-bottom: 140px;
     }
 
-    .icon_nn{
+    .icon_nn {
         width: 100%;
     }
 
-    .conn{
+    .conn {
         background-color: transparent;
         margin-top: 140px;
     }
 
-    .mrg{
+    .mrg {
         margin-top: 20px;
     }
 
-    .bottom{
+    .bottom {
         margin-bottom: 20px;
     }
 
-    .backcolor{
+    .backcolor {
         height: 1200px;
     }
 
-    .m{
+    .m {
         margin-bottom: 15px;
     }
 
-    .font_size{
-        color: black!important;
+    .font_size {
+        color: black !important;
     }
 
-    .pad_left{
+    .pad_left {
         padding-left: 20px;
         padding-top: 24px;
     }
 
-    .leftright{
+    .leftright {
         margin-top: 10px;
         display: flex;
         justify-content: center;
         align-items: center
     }
 
-    .mgrg{
+    .mgrg {
         margin-right: 0px;
-        margin-bottom: -62px!important;
+        margin-bottom: -62px !important;
     }
 
-    .padd{
+    .padd {
         padding: 50px 80px 0 86px;
     }
 
-    .none{
+    .none {
         display: none;
     }
 
-    .nn{
+    .nn {
         width: 97%;
     }
 
-    .white{
+    .white {
         padding: 0;
         margin-bottom: 25px;
     }
 
-    .img_n_n{
+    .img_n_n {
         margin-bottom: 18px;
     }
 
-    .pa{
+    .pa {
         margin-bottom: 40px;
     }
 
-    .con{
+    .con {
         margin-top: 190px;
     }
 
-    .bord{
+    .bord {
         color: gray;
     }
 
-    .mrglft{
+    .mrglft {
         margin-left: 8px;
     }
 
-    .center_n{
+    .center_n {
         text-align: center;
     }
 
-    .navbar-inverse .bord{
+    .navbar-inverse .bord {
         border-color: #fff;
         line-height: 35px;
     }
 
-    .navbar-inverse .bord:hover{
+    .navbar-inverse .bord:hover {
         background-color: #fff;
     }
 
-    .navbar-inverse .bord:hover i:nth-child(3){
+    .navbar-inverse .bord:hover i:nth-child(3) {
         color: black;
     }
 
-    .collapse ul li a{
-        color: gray!important;
+    .collapse ul li a {
+        color: gray !important;
         line-height: 35px;
     }
 
-    .words_n{
+    .words_n {
         margin-top: 70px;
     }
 
-    .sm, .percent, .word_n{
+    .sm,
+    .percent,
+    .word_n {
         text-align: center;
     }
 
-    .paa{
+    .paa {
         font-size: 27px;
     }
 
-    .gray{
+    .gray {
         width: 100%;
         height: 360px;
         padding: 25px 24px 10px 24px;
     }
 
-    .imgg{
+    .imgg {
         height: 170px;
         margin: 15px 0 40px 0;
     }
 
-    .iphone{
+    .iphone {
         height: 220px;
         margin: 5px 0;
     }
 
-    .percent{
+    .percent {
         margin-top: 10px;
         margin-bottom: 5px;
     }
 
-    .percent span{
+    .percent span {
         font-size: 68px;
     }
 
-    .sm{
+    .sm {
         margin-bottom: 20px;
     }
 
-    .mm{
+    .mm {
         width: 80%;
         height: inherit;
     }
 
-    .n{
+    .n {
         margin-top: 30px;
     }
 
-    .word_n{
+    .word_n {
         width: 100%;
         height: 150px;
         margin-top: 20px;
     }
 
-    .pad{
+    .pad {
         padding: 0 80px 0 90px;
     }
 
-    .word_n .mm span{
+    .word_n .mm span {
         font-size: 36px;
     }
 
-    .dissFlex{
+    .dissFlex {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .ph{
+    .ph {
         width: 100%;
         height: 500px;
         background-size: fill;
     }
 
-    .job{
+    .job {
         width: 80%;
         text-align: center;
         margin-left: 60px;
         height: 750px;
     }
 
-    .reverse{
+    .reverse {
         height: 360px;
         font-size: 28px;
         padding: 80px 0 0 125px;
         box-sizing: border-box;
-        
+
     }
 }
 
 @media screen and (max-width: 993px) {
-   .mar0{
-     margin: 0 ;
-   }
+    .mar0 {
+        margin: 0;
+    }
 }
