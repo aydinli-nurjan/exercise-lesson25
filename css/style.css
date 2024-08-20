@@ -1,3 +1,20 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #a4a3a3;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6370ff;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1352fd;
+}
+
 .border0 {
     border-radius: 0;
     background-color: transparent;
@@ -237,11 +254,6 @@
     font-family: Georgia, serif;
 }
 
-.card {
-    transform-style: preserve-3d;
-    transition: all 0.5s ease;
-}
-
 .gray {
     width: 100%;
     height: 390px;
@@ -250,28 +262,6 @@
     margin: 15px 0;
     float: left;
     padding: 48px 24px 25px 24px;
-    box-sizing: border-box;
-    backface-visibility: hidden;
-}
-
-.card:hover {
-    transform: rotateY(180deg);
-}
-
-.reverse {
-    position: relative;
-    width: 100%;
-    height: 390px;
-    margin: 15px 0;
-    background-color: #297e29;
-    color: white;
-    backface-visibility: hidden;
-    transform: rotateY(180deg);
-    cursor: pointer;
-    text-align: center;
-    font-size: 25px;
-    padding: 120px 0px 0 25%;
-    box-sizing: border-box;
 }
 
 .imgg {
@@ -345,13 +335,14 @@
 }
 
 .words {
-    width: 350px;
+    width: 460px;
     height: 40px;
     /* background-color: black; */
 }
 
 .words ul {
-    padding: 0px;
+    width: 460px;
+    margin-left: 12px;
 }
 
 .words ul li {
@@ -401,6 +392,14 @@
     border-radius: 50%;
     border: 1px solid #868080;
     color: #868080;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 15.5px;
+}
+
+.c {
+    padding-left: 18px;
 }
 
 .ic:hover {
@@ -484,6 +483,7 @@
     padding: 2px 10px 0 0px;
     box-sizing: border-box;
     margin-top: 70px;
+    transition: 0.5s;
 }
 
 .kvv {
@@ -496,6 +496,13 @@
 .kvv a {
     font-size: 18px;
     color: white;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.kvv a:hover {
+    color: #9e9c9c;
 }
 
 .kvv span {
@@ -529,7 +536,6 @@
     color: white;
     font-size: 27px;
     font-family: sans-serif;
-    margin-top: 22px;
 }
 
 .hover {
@@ -537,7 +543,7 @@
 }
 
 .icon_3 {
-    color: #2a7bf4;
+    color: #fff;
     margin-right: 15px;
 }
 
@@ -556,10 +562,11 @@
     margin-right: 8px !important;
     padding-left: 10px;
     border-radius: 6px 0 0 6px;
+    border-color: #ffffff00;
 }
 
 .hover a i:hover {
-    color: #2849b5;
+    color: #888989;
 }
 
 .nnn {
@@ -567,26 +574,30 @@
     background-color: #1d77ff;
     color: #fff;
     border-radius: 0 6px 6px 0;
+    border-color: #ffffff00;
+    border: 0.8px solid #c0bebe;
 }
 
 .go-top {
-    width: 50px;
+    width: 55px;
     height: 55px;
     position: fixed;
     right: 40px;
     top: 88%;
     transform: translateY(-50%);
     cursor: pointer;
-    display: none;
-    font-size: 0px;
-    /* background-color: black; */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('https://cdn.iconscout.com/icon/premium/png-256-thumb/up-button-3215227-2672310.png');
+    display: none !important;
+    font-size: 33px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #808080;
+    box-shadow: 0px 2px 6px #d7d5d5;
 }
+
 .go-top--show {
-    display: block;
+    display: block !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -824,14 +835,6 @@
         text-align: center;
         margin-left: 60px;
         height: 750px;
-    }
-
-    .reverse {
-        height: 360px;
-        font-size: 28px;
-        padding: 80px 0 0 125px;
-        box-sizing: border-box;
-
     }
 }
 
