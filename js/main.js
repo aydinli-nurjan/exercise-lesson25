@@ -38,7 +38,30 @@ function trackScroll() {
 
 function goTop() {
   if (window.pageYOffset > 0) {
-    window.scrollBy(0, -136);
+    window.scrollBy(0, -100);
     setTimeout(goTop, 0);x
   }
+}
+
+function filterSelection(category) {
+  var items = document.getElementsByClassName('item');
+  if (category === 'all') {
+      category = ''; // Show all items if 'all' is selected
+  }
+  
+  for (var i = 0; i < items.length; i++) {
+      var item = items[i];
+      if (item.className.indexOf(category) > -1) {
+          item.style.display = "block"; // Show matching items
+      } else {
+          item.style.display = "none"; // Hide non-matching items
+      }
+  }
+
+  // Update active button
+  var buttons = document.getElementsByClassName('filter-btn');
+  for (var i = 0; i < buttons.length; i++) {
+      buttons[i].classList.remove('active');
+  }
+  event.currentTarget.classList.add('active');
 }
